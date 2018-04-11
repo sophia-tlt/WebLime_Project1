@@ -102,17 +102,22 @@ a {
 	display: flex;
 	flex-direction: row;
 	color: white;
+	margin: 90px 0 0;
+}
+
+.slider__img {
+
 }
 
 .slider__show-text h1 {
 	font-size: 55px;
-	margin: 40px;
+	margin: 0 26px;
 	font-family: 'Open Sans';
 	font-weight: 300;
 }
 .slider__show-text p {
 	font-size: 24px;
-	margin: 40px;
+	margin: 0 26px;
 }
 
 .slider__btn {
@@ -125,10 +130,10 @@ a {
 	border-radius: 10px;
 	margin: 40px;
 }
-/*.slider__btn:hover {
+.slider__btn:hover {
 	cursor: pointer;
-	background: #0d703f;
-}*/
+	background: white;
+}
 
 .slider__btn a {
 	color: white;
