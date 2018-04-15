@@ -278,18 +278,13 @@ a {
 }
 
 .item__input {
-	background: white;
+	background: #f2f2f2;
 	border-radius: 10px;
 	height: 60px;
-	border: 1px solid #f2f2f2;
+	border: none;
 	padding: 25px;
 	outline: none;
 	width: 100%
-}
-
-input:invalid {
-    background-color: #f2f2f2;
-    border: none;
 }
 
 .item__span {
