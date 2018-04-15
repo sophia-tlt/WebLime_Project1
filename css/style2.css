@@ -188,6 +188,13 @@ a {
 	height: 130px;
 	justify-content: space-between;
 	background: white;
+	position: -webkit-sticky;
+  	position: -moz-sticky;
+  	position: -ms-sticky;
+  	position: -o-sticky;
+  	position: sticky;
+	top:0;
+	z-index: 99;
 }
 .main__nav {
 	position: relative;
