@@ -13,7 +13,7 @@ a {
 }
 
 .wrapper {
-	background: linear-gradient(to top right, #fbb03b, #83c222);
+	background: linear-gradient(to right, #fbb03b, #83c222);
 	height: 100vh;
 	width: 100vw;
 	font-family: 'Open Sans';
@@ -29,8 +29,6 @@ a {
 	height: 100%;
 	width: 100%;
 	min-width: 800px;
-	min-height: 1920px;
-	max-height: 1920px;
 }
 .header__head {
 	width: 100%;
@@ -81,9 +79,7 @@ a {
 
 /*header content*/
 .header__content {
-	position: relative;
 	display: flex;
-	flex:1 0 auto;
 	overflow: auto;
 }
 
@@ -150,7 +146,7 @@ a {
 
 .go_to {
 	position: absolute;
-	bottom: 0%;
+	bottom: 0;
 	left: 50%;
 }
 /*header end*/
@@ -161,15 +157,115 @@ a {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
-	height: 100%;
-	position: absolute;
+	height: 1300px;
 	top:100%;
+}
+
+.main__top {
+	display: flex;
+	position: relative;
+	left: 10%;
+	justify-content: flex-start;
+	width: 880px;
 }
 
 .navigation {
 	display: flex;
 	flex-direction: row;
+	padding: 0;
 }
+
+.navigation__item a {
+	color: #333333;
+}
+.navigation__item{
+	margin: 40px 0 40px 0;
+}
+
+.navigation__item-img {
+	height: 30px;
+	width: 30px;
+	padding:10px;
+}
+
+.main__center {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 10px;
+	height: 100%;
+	width: 1200px;
+	position: relative;
+	left: 10%;
+}
+
+.deb__card-h1 {
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 40px;
+	color: #0d703f;
+	width: 100%;
+	margin: 40px 0 40px 0;
+	position: relative;
+	left: 4%;
+}
+
+.pic__card {
+	display: flex;
+	flex-direction: row;
+	height: 355px;
+	width: 1100px;
+	background: linear-gradient(to right, #fbb03b, #83c222);
+	border-radius: 10px;
+	align-items: center;
+	position: relative;
+	left: 4%;
+}
+
+.pic__card-img {
+	margin: 54px;
+	height: 200px;
+	width: 355px;
+}
+
+.pic__card-text {
+	color: white;
+	font-family: "Open Sans";
+	font-weight: 300;
+	font-size: 32px;
+	margin-right: 56px;
+	height: 220px;
+}
+
+.discription__card {
+	display: flex;
+	flex-direction: row;
+	max-width: 1100px;
+	flex-wrap: wrap;
+	position: relative;
+	left: 4%;
+}
+
+.discription__card-h2{
+	width: 100%;
+	font-size: 32px;
+	color:  #0d703f;
+	margin: 36px 0 40px 0;
+}
+
+.discription__card-item {
+	height: 100px;
+	width: 250px;
+	margin: 0 auto 40px;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discription__card-img {
+	margin-bottom: 30px;
+}
+
 /*main content end*/
 
 /*footer*/
